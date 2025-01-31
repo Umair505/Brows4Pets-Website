@@ -3,3 +3,13 @@
 .font-adlam{
     font-family: "ADLaM Display", serif;
 }
+.font-sora{
+    font-family: "Sora", serif;
+}
+.btn-border{
+    box-sizing: border-box;
+/* Accent */
+border: 1px solid rgb(255, 220, 38);
+border-radius: 8px;
+
+}
