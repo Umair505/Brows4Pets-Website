@@ -99,7 +99,7 @@
         <section class="container mx-auto">
             <div class="">
                 <h2 class="text-xl mb-9 ml-3">Browse By Categories</h2>
-                <div class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+                <div class="ml-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
                     <!-- Card1 -->
                     <div class="card bg-card-primary w-36 lg:w-48 m h-56 shadow-xl items-center">
                         <div class="avatar mt-4">
@@ -164,7 +164,7 @@
             </div>
         </section>
         <!-- Trending Pet Products -->
-        <section class="h-lvh bg-bgr mt-24">
+        <section class="bg-bgr mt-24">
             <div class=" mx-auto container py-12">
                 <h2 class="text-2xl mb-9">Trending Pet Products</h2>
                 <div class="flex flex-col lg:flex-row gap-10">
@@ -344,6 +344,63 @@
                     </div>
                 </div>
                 
+            </div>
+        </section>
+
+        <!-- Every Day Low Price -->
+        <section class="mt-24 mb-24 container mx-auto">
+            <div class="sm:ml-32 md:ml-48 lg:ml-0">
+                <h2 class="text-2xl mb-10">Everyday low Price</h2>
+            </div>
+            <div class="flex flex-col md:flex-col lg:flex-row gap-12 mr-2 items-center">
+                    <!-- left card box -->
+                <!-- Large Screen Card -->
+                <div class="hidden md:hidden lg:flex lg:justify-center items-center">
+                    <div class="card w-[600px] h-96 lg:card-side grad1 shadow-xl flex items-center">
+                        <div class="card-body flex flex-col justify-center items-left">
+                            <p class="hidden lg:block sora text-sm">Under Price</p>
+                            <h3 class="font-bold">Pet Grooming Mitt</h3>
+                            <h4 class="hidden lg:block text-white font-semibold">(Easy Hair Removal)</h4>
+                            <h1 class="text-white lg:text-black text-3xl font-bold">$7.99</h1>
+                        </div>
+                        <figure class="p-2 w-2/4 h-[95%] flex justify-center shadow-xl items-center">
+                            <img class="w-3/4 md:w-full" src="images/cute-dog-mid.png" alt="Pet Grooming Mitt">
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- Small & Medium Screen Card -->
+                <div class="block lg:hidden">
+                    <div class="card w-96 md:w-96 h-96 shadow-xl grad1 px-5 py-7">
+                        <div class="relative flex-1">
+                            <h2 class="text-xl mb-9 text-black font-bold">Pet Grooming Mitt</h2>
+                            <h1 class="text-3xl text-white font-bold">$7.99</h1>
+                            <!-- Image Section -->
+                            <div>
+                                <div class="absolute w-4/6 lg:top-1 left-28 md:left-24 md:top-1 top-8 md:w-3/4">
+                                    <img class="" src="images/cute-dog-mid.png" alt="Pet Grooming Mitt">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    
+                    
+                    <!-- Right Card Box -->
+                    <div class="card w-96  md:w-96 h-96 shadow-xl grad2 px-5 py-7">
+                        <div class="relative flex-1">
+                            <h2 class="text-xl mb-9 text-black font-bold">T-Shirt For Dogs</h2>
+                            <h1 class="text-3xl text-card-primary font-bold">$7.99</h1>
+                            <!-- Image Section -->
+                            <div>
+                                <div class="absolute w-3/4 lg:top-1 left-28  md:left-24 md:top-1 top-8 md:w-3/4">  
+                                    <img class="" src="images/cute-pet-mid.png" alt="">
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
     </main>

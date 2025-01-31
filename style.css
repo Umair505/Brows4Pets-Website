@@ -20,14 +20,28 @@
     height: 50px;
     margin-top: 10px;
 }
+.grad1{
+    background: linear-gradient(134.71deg, rgb(248, 204, 251) 1.286%,rgb(172, 210, 253) 100%);
+}
+.grad2{
+    background: linear-gradient(134.71deg, rgb(255, 249, 244) 1.511%,rgb(249, 223, 138) 100%);
+}
+.card-cust{
+    border-radius: 12px;
+    background: linear-gradient(134.71deg, rgb(248, 204, 251) 1.286%,rgb(172, 210, 253) 100%);
+    width: 600px;
+    height: 320px;
+}
 /* .marg{
     margin-left:20px;
     margin-right: 10px;
 } */
+
 @media screen and (max-width:400px) {
     .card2{
         width: 150px;
         height: 130px;
-        gap: 3px;
+        gap: 2px;
     }
+    
 }
