@@ -36,7 +36,7 @@
         <nav class="bg-bgr">
             <div class="container mx-auto flex justify-between items-center py-4">
                 <!-- Logo Section-->
-                <div class="flex items-center gap-2 flex-1">
+                <div class="flex ml-2 items-center gap-2 flex-1">
                     <img class="w-10" src="images/logo-header.png" alt="">
                     <h2 class="hidden lg:block text-xl text-center">Browse<span class="text-logo-color">4</span>Pets</h2>
                 </div>
@@ -73,29 +73,43 @@
                 </div>
             </div>
         </nav>
-        
         <!-- Banner Section -->
-        <section class="my-20 mb-40 container mx-auto">
+        <section class="my-20 container mx-auto">
             <div class="mx-3 ">
                 <div class="space-y-5 banner h-[600px] bg-contain w-full 
-                bg-bottom md:bg-center lg:bg-top bg-no-repeat">
-                <h1 class="text-5xl">Pamper Your Pet,<br> Because They Deserve <br> the Best</h1>
-                <p class="w-3/4 lg:w-5/12 font-sora text-gray-600 text-wrap">
-                    Discover a world of treats, toys, and essentials handpicked for your furry friends. 
-                    Shop now and make tails wag with joy!
-                </p>
-                <a class="btn btn-warning px-6 py-1 font-sora">Find A Pet</a>
-            </div>
+                    bg-bottom md:bg-center lg:bg-top bg-no-repeat">
+                    <h1 class="text-5xl">Pamper Your Pet,<br> Because They Deserve <br> the Best</h1>
+                    <p class="w-3/4 lg:w-5/12 font-sora text-gray-600 text-wrap">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+                        Shop now and make tails wag with joy!
+                    </p>
+                    <a class="btn btn-warning px-6 py-1 font-sora">Find A Pet</a>
+                    
+                 </div>
             
             </div>
+            
+            
         </section>
+        
         
     </header>
 
     <main class="">
+        
         <!-- Card Section -->
         <section class="container mx-auto">
+            
+            <img class="w-72 h-auto md:w-80 lg:w-[480px]" src="animation/pet_shp.gif" alt="">
+           
             <div class="">
+                <marquee behavior="scroll" direction="left" scrollamount="10" class="block leading-none p-0 m-0">
+                    <img class="w-80 block" src="animation/cat-unscreen.gif" alt="">
+                </marquee>
+                <marquee behavior="scroll" direction="right" scrollamount="10" class="block leading-none p-0 m-0">
+                    <img class="w-80 block" src="animation/dog.gif" alt="">
+                </marquee>
+                
                 <h2 class="text-xl mb-9 ml-3">Browse By Categories</h2>
                 <div class="ml-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-4">
                     <!-- Card1 -->
@@ -160,11 +174,14 @@
                     </div>
                 </div>
             </div>
+            
         </section>
         <!-- Trending Pet Products -->
         <section class="bg-bgr mt-24">
             <div class=" mx-auto container py-12">
-                <h2 class="text-2xl mb-9">Trending Pet Products</h2>
+                <div class="lg:ml-10 ml-8">
+                    <h2 class="text-2xl mb-9">Trending Pet Products</h2>
+                </div>
                 <div class="flex flex-col lg:flex-row gap-10">
                     <!-- left card box -->
                     <div class="card w-80 sm:w-96 h-96 shadow-xl bg-card-primary px-5 py-7 ml-8">
@@ -186,8 +203,8 @@
                     <div class="grid grid-cols-2 lg:grid-cols-3  md:grid-cols-3 gap-2 ml-3 lg:gap-7">
                         
                         <!-- Card 2 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -204,8 +221,8 @@
                         </div>
                         
                         <!-- Card 3 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -222,8 +239,8 @@
                         </div>
                         
                         <!-- Card 4 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -240,8 +257,8 @@
                         </div>
                         
                         <!-- Card 5 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -258,8 +275,8 @@
                         </div>
                         
                         <!-- Card 6 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -276,8 +293,8 @@
                         </div>
                         
                         <!-- Card 7 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -294,8 +311,8 @@
                         </div>
                         
                         <!-- Card 8 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -312,8 +329,8 @@
                         </div>
                         
                         <!-- Card 9 -->
-                        <div class="card card2 w-[165px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -330,8 +347,8 @@
                         </div>
                         
                         <!-- Card 10 -->
-                        <div class="hidden lg:block 5d:block card card2 w-[160px] lg:w-52 h-28 bg-white shadow-xl">
-                            <div class="flex lg:gap-5 gap-2 items-center p-3">
+                        <div class="card card2 w-[165px] lg:w-60 h-28 bg-white shadow-xl">
+                            <div class="flex lg:gap-6 gap-2 items-center p-4">
                                 <!-- Image Section -->
                                 <div class="rounded-lg bg-bgr p-2 w-[60px] flex-shrink-0">
                                     <img class="hidden lg:block" src="images/dog-cartoon.png" alt="">
@@ -352,10 +369,10 @@
 
         <!-- Every Day Low Price -->
         <section class="mt-24 mb-[30rem] lg:mb-96 container mx-auto">
-            <div class="sm:ml-32 md:ml-48 lg:ml-0">
+            <div class="sm:ml-32 md:ml-48 lg:ml-24">
                 <h2 class="text-2xl mb-10">Everyday low Price</h2>
             </div>
-            <div class="flex flex-col md:flex-col lg:flex-row gap-12 mr-2 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mr-2 items-center">
                     <!-- left card box -->
                 <!-- Large Screen Card -->
                 <div class="hidden md:hidden lg:flex lg:justify-center items-center">
@@ -380,7 +397,7 @@
                             <h1 class="text-3xl text-white font-bold">$7.99</h1>
                             <!-- Image Section -->
                             <div>
-                                <div class="absolute w-4/6 lg:top-1 left-28 md:left-24 md:top-1 top-8 md:w-3/4">
+                                <div class="absolute w-4/6 lg:top-1 left-28 md:left-24 md:top-1 shadow-xl top-8 md:w-3/4">
                                     <img class="" src="images/cute-dog-mid.png" alt="Pet Grooming Mitt">
                                 </div>
                             </div>
@@ -388,7 +405,6 @@
                     </div>
                 </div>
 
-                    
                     
                     <!-- Right Card Box -->
                     <div class="card w-96  md:w-96 h-96 shadow-xl grad2 px-5 py-7">
