@@ -1,5 +1,10 @@
 
-
+.banner{
+    background-image: url(images/banner.png);
+}
+.bgr2{
+    background: rgba(255, 220, 38, 0.5);
+}
 .font-adlam{
     font-family: "ADLaM Display", serif;
 }
